@@ -13,26 +13,51 @@ html {
     text-size-adjust:100%;
     
      background-color: #000;
-    
 }
 
 *, *::before, *::after {
  box-sizing: inherit;   
 }
 
-body {
-    text-align: center;
-    font: normal 100%/1.5 sans-serif;
-    color: #fff;
+.logo {
+    top: -10px;
+    left:20px;
+    position: relative
 }
 
+.text {
+    font: normal 100%/1.5 sans-serif;
+    color: #fff;
+    vertical-align: middle;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	text-align: center;
+ }
+
 .diamond {
-  height: 400px;
-  width: 400px;
-  position: absolute;
-  top: calc(10% + 40px);
-  background-color: cornflowerblue;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  z-index: -1;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: -40px;
+    top: 90px;
+    background-color: #178e9c;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); 
 }
+
+@media only screen and (min-width: 20em) {
+
+
+@media only screen and (min-width: 40em) {
+
+
+@media only screen and (min-width: 60em) {
+
+@media only screen and (min-width: 90em) {
+    
