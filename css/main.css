@@ -25,4 +25,14 @@ body {
     font: normal 100%/1.5 sans-serif;
     color: #fff;
 }
+
+.diamond {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: calc(10% + 40px);
+  background-color: cornflowerblue;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  z-index: -1;
 }
