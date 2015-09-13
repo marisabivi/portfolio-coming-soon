@@ -72,6 +72,7 @@ a{
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg); 
+    overflow: hidden;
 }
 
 .square {
@@ -83,6 +84,7 @@ a{
     background-color: #137d89;
     overflow:hidden;
     z-index: -3;
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 20em) {
@@ -122,7 +124,7 @@ a{
         left: -6px;
         width: 11em;
         position: relative;
-        padding-bottom: 30px
+        padding-bottom: -30px
     }
 
     .text {
