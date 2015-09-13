@@ -82,6 +82,45 @@ html {
 
 
 @media only screen and (min-width: 60em) {
+.logo {
+    top: -21.1px;
+    left: 2.2px;
+    width: 11em;
+    margin-bottom: -40px;
+    position: relative;
+}
 
+.text {
+    font: 1em;
+    color: #fff;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	text-align: center;
+    margin-left: -100px;
+    padding-left:23%;   
+ }
+}
 @media only screen and (min-width: 90em) {
-    
+    .logo {
+    top: -21.1px;
+    left: -2.2px;
+    width: 11em;
+    margin-bottom: -40px;
+    position: relative;
+}
+
+.text {
+    font: 1em;
+    color: #fff;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	text-align: center;
+    margin-left: -150px; 
+ }
+}
