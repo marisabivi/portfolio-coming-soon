@@ -20,28 +20,35 @@ html {
 }
 
 .logo {
-    top: -10px;
-    left:20px;
-    position: relative
+    top: -65px;
+    left: -4px;
+    width: 11em;
+    margin-bottom: -40px;
+    position: relative;
 }
 
 .text {
-    font: normal 100%/1.5 sans-serif;
+    font: 1em;
     color: #fff;
-    vertical-align: middle;
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	text-align: center;
+    margin-left: -9px;
+    margin-right: 10px;
  }
+
+.media {
+    height: 50px;   
+}
 
 .diamond {
     height: 400px;
     width: 400px;
     position: relative;
-    left: -40px;
+    left: -10px;
     top: 90px;
     background-color: #178e9c;
     -webkit-transform: rotate(45deg);
@@ -49,6 +56,17 @@ html {
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg); 
+}
+
+.square {
+    height: 600px;
+    width: 483px;
+    position: relative;
+    left: -10px;
+    top: -110px;
+    background-color: #178e9c;
+    overflow:hidden;
+    z-index: -3;
 }
 
 @media only screen and (min-width: 20em) {
