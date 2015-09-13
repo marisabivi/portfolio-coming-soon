@@ -36,12 +36,18 @@ html {
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	text-align: center;
-    margin-left: -9px;
+    margin-left: -20px;
     margin-right: 10px;
  }
 
+.social {
+     border-top: 1.5px solid #137d89;
+}
+
 .media {
-    height: 50px;   
+    height: 40px;
+    padding-right: 6px;
+    
 }
 
 .diamond {
@@ -64,7 +70,7 @@ html {
     position: relative;
     left: -10px;
     top: -110px;
-    background-color: #178e9c;
+    background-color: #137d89;
     overflow:hidden;
     z-index: -3;
 }
