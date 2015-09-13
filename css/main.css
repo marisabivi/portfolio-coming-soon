@@ -21,14 +21,13 @@ html {
 
 .logo {
     top: -65px;
-    left: -4px;
+    left: -10px;
     width: 11em;
     margin-bottom: -40px;
     position: relative;
 }
 
 .text {
-    font: 1em;
     color: #fff;
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
@@ -36,12 +35,19 @@ html {
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	text-align: center;
-    margin-left: -20px;
-    margin-right: 10px;
  }
+
+.center {
+    margin-right: 30px;
+}
 
 .social {
      border-top: 1.5px solid #137d89;
+}
+
+a{
+    color: white;
+
 }
 
 .social-media {
@@ -86,45 +92,50 @@ html {
 
 
 @media only screen and (min-width: 60em) {
-.logo {
-    top: -21.1px;
-    left: 2.2px;
-    width: 11em;
-    margin-bottom: -40px;
-    position: relative;
-}
+    .logo {
+        top: -56.1px;
+        left: -3.9px;
+        width: 11em;
+        margin-bottom: -55px;
+        position: relative;
+    }
 
-.text {
-    font: 1em;
-    color: #fff;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	text-align: center;
-    margin-left: -100px;
-    padding-left:23%;   
- }
+    .text {
+        color: #fff;
+        text-align: center;
+	   -webkit-transform: rotate(-45deg);
+	   -moz-transform: rotate(-45deg);
+	   -ms-transform: rotate(-45deg);
+	   -o-transform: rotate(-45deg);
+	   transform: rotate(-45deg);
+	   text-align: center;  
+    }
+    
+    .center {
+        margin-right: 24px;
+        font-size: .9em;
+    }
 }
 @media only screen and (min-width: 90em) {
     .logo {
-    top: -21.1px;
-    left: -2.2px;
-    width: 11em;
-    margin-bottom: -40px;
-    position: relative;
-}
+        top: -55.1px;
+        left: -6px;
+        width: 11em;
+        position: relative;
+        padding-bottom: 30px
+    }
 
-.text {
-    font: 1em;
-    color: #fff;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	text-align: center;
-    margin-left: -150px; 
+    .text {
+        color: #fff;
+        text-align: center;
+	   -webkit-transform: rotate(-45deg);
+	   -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+	   -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);   
  }
+    .center {
+        margin-right: 40px;
+        font-size: 1em;
+    }
 }
