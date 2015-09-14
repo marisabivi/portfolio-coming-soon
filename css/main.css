@@ -6,13 +6,14 @@
 
 html {
     box-sizing: border-box;
+    overflow-x:hidden; 
     
     -moz-text-size-adjust:100%;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-    
      background-color: #000;
+     
 }
 
 *, *::before, *::after {
@@ -61,8 +62,8 @@ a{
 }
 
 .diamond {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
     position: relative;
     left: -10px;
     top: 90px;
@@ -74,17 +75,16 @@ a{
     transform: rotate(45deg); 
 }
 
-.square {
+/*.square {
     height: 600px;
     width: 566px;
     position: relative;
     left: -92.2px;
     top: -110px;
-    /*background-color: #137d89;*/
-    background-color: #178e9c;
+    background-color: #137d89;
     overflow:hidden;
     z-index: -3;
-}
+}*/
 
 @media only screen and (min-width: 20em) {
 
