@@ -6,13 +6,14 @@
 
 html {
     box-sizing: border-box;
+    overflow-x:hidden; 
     
     -moz-text-size-adjust:100%;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-    
      background-color: #000;
+     
 }
 
 *, *::before, *::after {
@@ -65,7 +66,7 @@ a{
     width: 400px;
     position: relative;
     left: -10px;
-    top: 90px;
+    top: 140px;
     background-color: #178e9c;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -74,23 +75,57 @@ a{
     transform: rotate(45deg); 
 }
 
-.square {
+/*.square {
     height: 600px;
     width: 566px;
     position: relative;
     left: -92.2px;
     top: -110px;
-    /*background-color: #137d89;*/
-    background-color: #178e9c;
+    background-color: #137d89;
     overflow:hidden;
     z-index: -3;
-}
+}*/
 
 @media only screen and (min-width: 20em) {
 
 
 @media only screen and (min-width: 40em) {
+.logo {
+        top: -100.1px;
+        left: -57.9px;
+        width: 11em;
+        margin-bottom: -55px;
+        position: relative;
+    }
+    
+.diamond {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: -100px;
+    top: 115px;
+    background-color: #178e9c;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); 
+}
+    
+.text {
+    color: #fff;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	text-align: center;
+ }
 
+.center {
+    margin-right: 100px;
+    margin-left: -60px;
+}
 
 @media only screen and (min-width: 60em) {
     .logo {
