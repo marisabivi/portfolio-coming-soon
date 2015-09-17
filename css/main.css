@@ -12,8 +12,7 @@ html {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-     background-color: #000;
-     
+     background-color: #000;   
 }
 
 *, *::before, *::after {
@@ -21,14 +20,20 @@ html {
 }
 
 .logo {
-    top: -65px;
-    left: -10px;
+    height: 9.2em;
+    top: -61.5px;
+    margin-left: -8%;
     width: 11em;
     margin-bottom: -40px;
     position: relative;
 }
 
+.title {
+        margin-left:-10%;
+    }
+
 .text {
+    font-size: 110%;
     color: #fff;
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
@@ -39,33 +44,35 @@ html {
  }
 
 .center {
-    margin-right: 30px;
+    margin-right: 10%;
 }
 
 .social {
-     border-top: 1.5px solid #137d89;
+     border-top: 1.5px solid #126b75;
+     width: 90%;
+     overflow: hidden;
+     padding-left: 20%;
+     padding-right: 20%;
 }
 
 a{
     color: white;
-
 }
 
 .social-media {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .media {
     height: 40px;
-    padding-right: 6px;
-    
+    padding-right: 6px;   
 }
 
 .diamond {
     height: 400px;
     width: 400px;
     position: relative;
-    left: -10px;
+    left: -2.%;
     top: 140px;
     background-color: #178e9c;
     -webkit-transform: rotate(45deg);
@@ -90,88 +97,84 @@ a{
 
 
 @media only screen and (min-width: 40em) {
-.logo {
-        top: -100.1px;
-        left: -57.9px;
-        width: 11em;
-        margin-bottom: -55px;
-        position: relative;
-    }
-    
-.diamond {
-    height: 500px;
-    width: 500px;
-    position: relative;
-    left: -100px;
-    top: 115px;
-    background-color: #178e9c;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg); 
-}
-    
-.text {
-    color: #fff;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	text-align: center;
- }
-
-.center {
-    margin-right: 100px;
-    margin-left: -60px;
-}
-
-@media only screen and (min-width: 60em) {
     .logo {
-        top: -56.1px;
-        left: -3.9px;
+       top: -101.5px;
+        margin-left: -21%;
         width: 11em;
         margin-bottom: -55px;
         position: relative;
     }
 
-    .text {
+  .text {
         color: #fff;
-        text-align: center;
 	   -webkit-transform: rotate(-45deg);
 	   -moz-transform: rotate(-45deg);
 	   -ms-transform: rotate(-45deg);
 	   -o-transform: rotate(-45deg);
 	   transform: rotate(-45deg);
-	   text-align: center;  
+	   text-align: center;
+        margin-right: -60px;
+        margin-left: -60px;
     }
     
+    .title {
+        margin-left:-20%;
+    }
+
     .center {
-        margin-right: 24px;
-        font-size: .9em;
+        margin-right: 20%;
+        margin-left: 2%;
+    }
+
+    .social {
+        width: 80%;
+        overflow: hidden;
+        padding-left: -80%;
+        padding-right: 25%;
+    }
+
+    
+    .diamond {
+        height: 500px;
+        width: 500px;
+        position: relative;
+        left: -135px;
+        top: 115px;
+        background-color: #178e9c;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg); 
+    }    
+}
+    
+@media only screen and (min-width: 60em) {
+    .logo {
+        top: -95.1px;
+        left: 2%;
+        width: 11em;
+        margin-bottom: -55px;
+    }
+    
+    .social {
+        width: 90%;
+        padding-left: -90%;
+        padding-right: 25%;
     }
 }
 @media only screen and (min-width: 90em) {
     .logo {
-        top: -55.1px;
-        left: -6px;
+        height: 3%;
+        top: -110.1px;
+        left: -1%;
         width: 11em;
         position: relative;
-        padding-bottom: -30px
+        margin-bottom: -70px;
     }
-
+    
     .text {
-        color: #fff;
-        text-align: center;
-	   -webkit-transform: rotate(-45deg);
-	   -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-	   -o-transform: rotate(-45deg);
-        transform: rotate(-45deg);   
- }
-    .center {
-        margin-right: 40px;
-        font-size: 1em;
+        font-size: 100%;
+        margin-right: -15%;
     }
 }
