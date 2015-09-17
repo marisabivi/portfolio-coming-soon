@@ -22,7 +22,7 @@ html {
 .logo {
     height: 9.2em;
     top: -61.5px;
-    margin-left: -8%;
+    margin-left: -11%;
     width: 11em;
     margin-bottom: -40px;
     position: relative;
@@ -72,7 +72,7 @@ a{
     height: 400px;
     width: 400px;
     position: relative;
-    left: -2.%;
+    left: -2%;
     top: 140px;
     background-color: #178e9c;
     -webkit-transform: rotate(45deg);
